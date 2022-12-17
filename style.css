@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first-child: hsl(0, 78%, 62%);
+  --second-child: hsl(180, 62%, 55%);
+  --third-child: hsl(34, 97%, 64%);
+  --fourth-child: hsl(212, 86%, 64%);
+  --back-bg: hsl(0, 0%, 98%);
+}
+
+main {
+  background-color: var(--back-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 99vh;
+}
+
+.article {
+  display: grid;
+  justify-items: center;
+  width: 70%;
+}
+.text1 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.text2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.textp {
+  width: 70%;
+  margin-bottom: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+}
+article {
+  border-radius: 5px;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 3px 10px -3px var(--fourth-child);
+  border-top-width: 4px;
+  border-top-style: solid;
+}
+.new {
+  background-color: var(--back-bg);
+}
+
+.second-child {
+  border-top-color: var(--second-child);
+  padding: 30px;
+}
+
+.second-child p {
+  margin: 20px;
+  color: rgb(161, 152, 152);
+}
+
+.third-child {
+  margin-top: 10px;
+  border-top: 2px solid var(--third-child);
+  font-size: 15px;
+}
+
+.third-child p {
+  margin: 25px;
+  color: rgb(161, 152, 152);
+}
+
+.fourth-child {
+  margin-top: 15px;
+  border-top: 2px solid var(--fourth-child);
+}
+
+.fourth-child p {
+  margin: 15px;
+  font-size: 15px;
+  color: rgb(161, 152, 152);
+}
+
+.first-child {
+  margin-top: 15px;
+  border-top: 2px solid var(--first-child);
+}
+
+.first-child p {
+  font-size: 15px;
+  margin: 15px;
+  color: rgb(161, 152, 152);
+}
+
+/*Nathaniel */
+.image-holder {
+  display: flex;
+  justify-content: right;
+}
